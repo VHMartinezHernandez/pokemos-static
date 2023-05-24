@@ -16,7 +16,6 @@ export const PokemonCard: FC<Props> = ({ pokemon }) => {
     return (
                  
                 <Grid xs={6} sm={3} md={2} xl={1} key={pokemon.id}>
-                    <Container gap={2} justify='flex-start'>
                     <Card 
                     isHoverable 
                     isPressable
@@ -37,7 +36,6 @@ export const PokemonCard: FC<Props> = ({ pokemon }) => {
                             </Row>
                         </Card.Footer>
                     </Card>
-                    </Container>
                 </Grid>
         
     )
